@@ -1,0 +1,16 @@
+.cabecera {
+    background: #EAD94C;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex{
+    align-self: center;
+}
+
+h5{
+    margin: 1rem;
+}
