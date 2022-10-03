@@ -13,7 +13,7 @@
 <header class="cabecera fija">
 
 <!-- es la barra del logo -->
-<Nav class="navbar bg-light">
+<Nav class="navbar bg-canary">
     <div class="container fluid">
         <a href="#"><img src="/Img/logopag.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top"></a>
         <form class="d-flex" role="search">
@@ -33,42 +33,39 @@
 <!-- son los botones del menu desplegable -->
 
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Marca
-    </button>
-    <ul class="dropdown-menu">
-      <li><button class="dropdown-item" type="button">Baby Fresh</button></li>
-      <li><button class="dropdown-item" type="button">Off Cors</button></li>
-      <li><button class="dropdown-item" type="button">Epk</button></li>
-      <li><button class="dropdown-item" type="button">Fisher Price</button></li>
-      <li><button class="dropdown-item" type="button">Litle Me</button></li>
-    </ul>
-  </div>
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Marca
+  </a>
 
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Genero
-    </button>
-    <ul class="dropdown-menu">
-      <li><button class="dropdown-item" type="button">Niña</button></li>
-      <li><button class="dropdown-item" type="button">Niño</button></li>
-         </ul>
-  </div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Litle one</a></li>
+    <li><a class="dropdown-item" href="#">baby fresh</a></li>
+    <li><a class="dropdown-item" href="#">otras marcas</a></li>
+  </ul>
+</div>
 
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Talla
-    </button>
-    <ul class="dropdown-menu">
-      <li><button class="dropdown-item" type="button">0M</button></li>
-      <li><button class="dropdown-item" type="button">3M</button></li>
-      <li><button class="dropdown-item" type="button">6M</button></li>
-      <li><button class="dropdown-item" type="button">12M</button></li>
-      <li><button class="dropdown-item" type="button">24M</button></li>
-      <li><button class="dropdown-item" type="button">36M</button></li>
-          </ul>
-  </div> 
-      
+<!--Las tarjetas con los articulos de ropa-->  
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/Img/set niña 1.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Little Me</h5>
+        <p class="card-text">Set Blusa Manga Larga, Pantalón y Balaca Niñas</p>
+
+        <p>TALLAS DISPONIBLES</p>
+        <p> 3M 6M 12M 24M</p>
+
+        <p class="card-text"><large class="text-muted">COP 129.000</large></p>
+
+        <button type="button" class="btn btn-primary btn-lg">Comprar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="bootstrap-5.2.1-dist/js/bootstrap.min.js"></script>
 </body>

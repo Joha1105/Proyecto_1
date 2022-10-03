@@ -7,10 +7,15 @@
     justify-content: space-between;
 }
 
-.d-flex{
+.d-flex {
     align-self: center;
 }
 
 h5{
     margin: 1rem;
 }
+
+.dropdown ul li a: :hover {
+
+}
+    
